@@ -1,0 +1,137 @@
+
+
+@media(min-width:768px){
+  .lbli{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: -50px 10px 0px 25px;
+    z-index: 9;
+  
+  }
+  .image{
+    display: block;
+    margin-top:50px;
+    width: 100%;
+    height: 200px;
+  }
+  .fb-image-profile{
+    position: relative;
+    width: 20%;
+    max-width: 20%;
+  }
+  .fb-image-profile:hover .overlay{
+    opacity: 1;
+  }
+  .image{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0,0,0,0);
+    }
+    .ctn {
+      /* background: red; */
+      position: relative;
+      width: 25%;
+      height:20vh;
+      top:110px
+    }
+    
+    .ctn:hover .overlay {
+      opacity: 1;
+    }
+    
+    .icon {
+      color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    
+    .fa-user:hover {
+      color: #eee;
+    }
+    .clearfix::after {
+      clear: both;
+    }
+
+    .fb-profile img.fb-image-lg{
+      z-index: 0;
+      width: 100%;  
+      margin-bottom: -50px;
+  }
+
+}
+
+
+.fb-image-profile
+{
+    margin: -90px 0px 0px 50px;
+    z-index: 9;
+    padding: 0;
+    margin: 0;
+}
+.fb-profile-text{
+  padding-left:20px;
+}
+@media (max-width:768px)
+{
+  .image{
+    display: block;
+    margin-top:50px;
+    width: 100%;
+    height: 200px;
+  }
+  .icon {
+    color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+.fb-image-lg{
+  display: none;
+}
+
+
+.icon {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.lbli{
+     /* margin: -90px 10px 0px 25px; */
+    z-index: 9;
+    margin: 0;
+    padding: 0;
+
+}
+}
